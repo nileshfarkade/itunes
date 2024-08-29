@@ -1,4 +1,4 @@
-apiVersion: xyz.io/v1alpha1
+apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: iTunes
@@ -6,7 +6,7 @@ metadata:
     xyz is an open-source developer portal that puts the developer experience first.
   links:
     - title: Website
-      url: http://xyz.io
+      url: http://backstage.io
     - title: Documentation
       url: https://backstage.io/docs
     - title: Storybook
