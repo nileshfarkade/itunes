@@ -18,14 +18,17 @@ metadata:
   annotations:
     github.com/project-slug: nileshfarkade/itunes
     lighthouse.com/website-url: https://backstage.io
+  tags:
+    - React
+    - Python
 spec:
   type: library
   owner: Nilesh
   lifecycle: experimental
   system: public-websites
   profile:
-    displayName: Jenny Doe
-    email: jenny-doe@example.com
+    displayName: Nilesh Works
+    email: nilesh-works@example.com
     picture: https://example.com/staff/jenny-with-party-hat.jpeg
   memberOf: [team-b, employees]
   parameters:
