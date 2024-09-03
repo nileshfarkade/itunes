@@ -23,6 +23,11 @@ spec:
   owner: Nilesh
   lifecycle: experimental
   system: public-websites
+  profile:
+    displayName: Jenny Doe
+    email: jenny-doe@example.com
+    picture: https://example.com/staff/jenny-with-party-hat.jpeg
+  memberOf: [team-b, employees]
   parameters:
     - title: Fill in some steps
       required:
