@@ -1,5 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
+tags:
+  - changelog
 metadata:
   name: iTunes
   description: |
@@ -24,8 +26,30 @@ spec:
   lifecycle: experimental
   system: public-websites
   profile:
+    displayName: Jenny Doe
     email: jenny-doe@example.com
     picture: https://example.com/staff/jenny-with-party-hat.jpeg
   memberOf: [team-b, employees]
-tags:
-  - changelog
+  parameters:
+    - title: Fill in some steps
+      required:
+        - name
+      properties:
+        name:
+          title: Name
+          type: string
+          description: Unique name of the component
+          ui:autofocus: true
+          ui:options:
+            rows: 5
+    - title: Choose a location
+      required:
+        - repoUrl
+      properties:
+        repoUrl:
+          title: Repository Location
+          type: string
+          ui:field: RepoUrlPicker
+          ui:options:
+            allowedHosts:
+              - github.com
