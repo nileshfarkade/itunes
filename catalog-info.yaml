@@ -26,6 +26,9 @@ spec:
   owner: Nilesh
   lifecycle: experimental
   system: public-websites
+  tags:
+    - React
+    - Python
   profile:
     displayName: Nilesh Works
     email: nilesh-works@example.com
